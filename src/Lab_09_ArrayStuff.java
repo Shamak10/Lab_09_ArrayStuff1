@@ -21,8 +21,6 @@ public class Lab_09_ArrayStuff {
             sum += dataPoints[i];
         }
         double avg = (double) sum / dataPoints.length;
-
-        // Display the sum and average
         System.out.printf("The sum of the random array dataPoints is: %d\n", sum);// Display the sum
         System.out.printf("The average of the random array dataPoints is: %.2f\n", avg);// Display the average
     }
